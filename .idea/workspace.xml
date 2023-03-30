@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b29a22f9-a629-429a-962b-7fa97da703e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskkids-mail/src/main/java/com/rfnet/taskkidsmail/controller/MailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskkids-mail/src/main/java/com/rfnet/taskkidsmail/dto/MailDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskkids-mail/src/main/java/com/rfnet/taskkidsmail/enums/StatusMail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskkids-mail/src/main/java/com/rfnet/taskkidsmail/model/MailModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskkids-mail/src/main/java/com/rfnet/taskkidsmail/repository/MailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskkids-mail/src/main/java/com/rfnet/taskkidsmail/service/MailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taskkids-mail/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/taskkids-mail/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskkids-mail/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taskkids-mail/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskkids-mail/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taskkids-mail/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskkids-mail/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

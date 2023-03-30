@@ -33,4 +33,4 @@ build/
 .vscode/
 
 #Ignore Properties
-*.properties
+taskkids-mail/src/main/resources/*.properties
