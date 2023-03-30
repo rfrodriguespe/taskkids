@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b29a22f9-a629-429a-962b-7fa97da703e9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/taskkids-mail/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/taskkids-mail/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskkids-mail/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
