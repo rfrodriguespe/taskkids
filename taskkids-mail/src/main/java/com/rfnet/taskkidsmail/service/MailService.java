@@ -24,7 +24,7 @@ public class MailService {
             SimpleMailMessage message = new SimpleMailMessage();
             message.setFrom(mailModel.getMailFrom());
             message.setTo(mailModel.getMailTo());
-            message.setFrom(mailModel.getSubject());
+            message.setSubject(mailModel.getSubject());
             message.setText(mailModel.getText());
             javaMailSender.send(message);
             mailModel.setStatusMail(StatusMail.SENT);
@@ -33,7 +33,6 @@ public class MailService {
         } finally {
             return mailRepository.save(mailModel);
         }
-
 
     }
 }
