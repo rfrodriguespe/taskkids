@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Exemplo de HTML com Dojo</title>
+        <!-- Load Dojo lib -->
+        <script src="https://ajax.googleapis.com/ajax/libs/dojo/1.14.1/dojo/dojo.js"></script>
+        <!-- Load style sheet claro.css from Dojo -->
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/dojo/1.14.1/dijit/themes/claro/claro.css">
+        <!-- Load Dojo.js -->
+        <script src="dojo.js"></script>
+    </head>
+    <body class="claro">
+        <div id="btnDiv">
+            <button id="relanceButton"></button>
+            <button id="commentaireButton"></button>
+        </div>
+        <div id="relanceDiv" style="display: none; width: 600px; height: 600px;">
+            <label for="filteringSelectTypeDestinataire">Type de destinataire:</label>
+            <input id="filteringSelectTypeDestinataire"></input><br>
+            <div id="divExpert" style="display: none;">
+                <label for="filteringSelectExpert">Type d'expert':</label>
+                <input id="filteringSelectExpert"></input>
+            </div>
+            <label>Commentaire:</label>
+            <textarea id="commentaireRelance"></textarea><br>
+            <label id="caracteresRemaining">2000 caractères restants</label><br>
+            <button id="btnAjouterCommentaireRelance"></button>
+        </div>
+
+        <div id="commentaireDiv" style="display: none; width: 600px; height: 600px;">
+            <label for="filteringSelectDestinataire">Destinataire:</label>
+            <input id="filteringSelectDestinataire"></input><br>
+            <label>Commentaire:</label>
+            <textarea id="commentaireCommentaire"></textarea><br>
+            <label id="caracteresRemaining2">2000 caractères restants</label><br>
+            <button id="btnAjouterCommentaireCommentaire"></button>
+        </div>
+
+    </body>
+</html>
