@@ -1,0 +1,63 @@
+package com.natixis.eden.util;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Properties;
+import java.util.StringTokenizer;
+import java.util.logging.Logger;
+
+public class Utils {
+
+    /** Logger */
+    static Logger logger = Logger.getLogger(Utils.class.getName());
+
+    public static int stringToInt(String value, int defaultValue)
+    {
+        int returnV = defaultValue;
+        try {
+            return Integer.valueOf(value);
+        } catch (Exception lE) {
+            return returnV;
+        }
+    }
+
+    public static List<String> splitToList(String exp, String separator)
+    {
+        if(exp==null || separator==null)
+            return null;
+        List<String> retult = new ArrayList<String>();
+
+        StringTokenizer st = new StringTokenizer(exp, separator);
+
+        while (st.hasMoreElements()) {
+            retult.add((String)st.nextElement());
+        }
+
+        return retult;
+    }
+    public static String replace(String data)
+    {
+        if(data==null)
+            return data;
+        else {
+            return data.replaceAll("\\\\|\\/", "_");
+        }
+    }
+
+    /**
+     * load a random properties file
+     *
+     * @param propertiesFileName
+     * @return
+     */
+    public static Properties loadPropertiesFile(String propertiesFileName) {
+        java.util.Properties propertiesFile = new java.util.Properties();
+        try {
+            propertiesFile.load(Utils.class.getClassLoader().getResourceAsStream(propertiesFileName));
+        } catch (IOException e) {
+            logger.severe("[Utils]loadPropertiesFile - Unexpected error occurred : " + e);
+        }
+        return propertiesFile;
+    }
+}
